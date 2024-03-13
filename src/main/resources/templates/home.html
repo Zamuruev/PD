@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th = "https://www.thymeleaf.org">
+<head th:replace="~{head.html}"></head>
+<body style="margin:0; background: #1D1C1C; width: 100%; font-family: El Messiri;">
+<nav th:replace="~{nav.html}"></nav>
+<div>
+    <img src ="img/fon.png" style="width: 100%;">
+    <div style="position: absolute; width: 99.9%; margin:auto; top: 35%; ">
+    <div style="text-align: center; color: white; font-size: 500%; font-weight: bold; line-height: 5px;">
+        Именная стипендия
+    </div>
+    <div style="text-align: center; color: white; font-size: 400%; font-weight: bold;">
+        Правительства Москвы 
+    </div>
+    <div style="text-align: center; font-size: 200%; color: #8E8E8E; margin-bottom: 50px;">
+        Существует с 1992 года и насчитывает более 25 000 выпускников
+    </div>
+    <button class="moreButton" onclick="scrollToSection('more')"> Подробнее </button>
+    </div>
+
+    <div style="width: 100%; background: linear-gradient(#101014, #1D1C1C); padding-top: 5%; margin-top: -10px;" id="more">
+        <div style="color: white; font-size: 200%; margin:auto; width: 1150px; padding-bottom: 5%; line-height: 55px;"> 
+            <div style="display: flex; margin-bottom: 10%;"> 
+              <div style="margin-right: 15%;"> 
+                 <div> Деятельность программы </div> 
+                 <div align="justify" style="width: 500px; color: #8E8E8E;"> Мы помогает талантливым студентам, 
+                     обучающимся в московских вузах, 
+                     достигать успеха в учебе и науке. 
+                     Стипендиаты получают не только финансовую 
+                     поддержку, но и возможности для развития 
+                     своих талантов и навыков.</div> 
+             </div>
+              <div style="display: flex; flex-direction: column;"> 
+                <div style="display: flex; flex-direction: row;"> <img src = "img/1.png" style="width: 250px; margin-right: 10%; margin-bottom: 10%;"> <img src = "img/2.png" style="width: 250px; margin-bottom: 10%;"> </div> 
+                <div style="display: flex; flex-direction: row;"> <img src = "img/3.png" style="width: 250px; margin-right: 10%;"> <img src = "img/4.png" style="width: 250px;"> </div>
+            </div>
+            </div>
+            <div style="display: flex; margin-top: 5%;"> 
+                <div style="display: flex; flex-direction: column; margin-right: 15%;"> 
+                  <div style="display: flex; flex-direction: row;"> <img src = "img/5.png" style="width: 250px; margin-right: 10%; margin-bottom: 10%;"> <img src = "img/6.png" style="width: 250px; margin-bottom: 10%;"> </div> 
+                  <div style="display: flex; flex-direction: row;"> <img src = "img/7.png" style="width: 250px; margin-right: 10%;"> <img src = "img/8.png" style="width: 250px;"> </div>
+              </div>
+              <div> 
+                <div> Что еще можно получить от программы “Именные стипендианты правительства Москвы”? </div> 
+                <div align="justify" style="width: 500px; color: #8E8E8E;"> 
+                    Мы помогает талантливым студентам, 
+                    обучающимся в московских вузах, 
+                    достигать успеха в учебе и науке. 
+                    Стипендиаты получают не только финансовую 
+                    поддержку, но и возможности для развития 
+                    своих талантов и навыков.</div> 
+            </div>
+              </div>
+            </div>
+    </div>
+    <div style="padding: 5% 0; background: linear-gradient(#1D1C1C, #000000); width: 100%; margin-top: -10px">
+        <div style="color: white; text-align: center; font-size: 450%; line-height: 80px; margin-top: -100px;">
+            <div> Наши </div> 
+            <div> партнёры </div>
+        </div>
+        <div style="display: flex; color: white; font-size: 250%; align-items: center; justify-content: space-between; margin: 5% 10%">
+            <div align = "center">
+                <div> Московские вузы </div>
+                <img src = "img/10.png" style="width: 250px;"> 
+            </div>
+            <div align = "center">
+                <div> Научные организации </div>
+                <img src = "img/9.png" style="width: 250px;"> 
+            </div>
+            <div align = "center">
+                <div> Компании </div>
+                <img src = "img/11.png" style="width: 250px;"> 
+            </div>
+        </div>
+      </div>
+      <div align = "center">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A166add57ab23a182fac33fe015e0d44e09a44547776e400b12a52c58ac0e2b98&amp;width=100%25&amp;height=434&amp;lang=ru_RU&amp;scroll=true"></script>
+        <div align = "center" style="font-size: 150%; padding: 5% 0"> 
+            <div style="color: white; font-size: 200%;"> Контакты  </div>
+            <div style="color: #8E8E8E;"> Адрес: 109147,Москва, ул. Таганская, д. 40-42  </div>
+            <div style="color: #8E8E8E;"> Телефон: 8 (900) 800-70-60 </div>
+        </div>
+    </div>
+    
+</div>
+</body>
+</html>

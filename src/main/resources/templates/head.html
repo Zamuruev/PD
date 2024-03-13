@@ -1,0 +1,39 @@
+<head>
+    <title> Именная стипендия Правительства Москвы </title>
+    <style>
+        @font-face {
+            font-family: El Messiri;
+            src: url(fonts/ElMessiri.ttf);
+        }
+        .moreButton {
+            display: flex; 
+            background-color: #302E29; 
+            box-shadow: 0 0 50px white; 
+            border-radius: 50px; 
+            color: white; 
+            font-size: 200%;
+            padding: 20px 100px; 
+            width: 350px; 
+            margin: auto; 
+            border: none;
+            font-family: El Messiri; 
+        }
+        .moreButton:hover {
+            box-shadow: 0 0 65px white; 
+        }
+        .linkHome {
+            text-decoration: none; margin-right: 20px; text-align: center; color: black
+        }
+        .linkHome:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        function scrollToSection(sectionId) {
+    var section = document.getElementById(sectionId);
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' }); // Плавный скролл к секции
+    }
+}
+    </script>
+</head>
